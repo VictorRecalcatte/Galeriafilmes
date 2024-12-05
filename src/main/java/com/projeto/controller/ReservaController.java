@@ -1,7 +1,6 @@
 package com.projeto.controller;
 
 
-import com.projeto.model.Evento;
 import com.projeto.model.Reserva;
 import com.projeto.service.ReservaService;
 import org.springframework.beans.factory.annotation.Autowired;

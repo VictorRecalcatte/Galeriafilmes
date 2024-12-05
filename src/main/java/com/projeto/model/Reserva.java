@@ -12,12 +12,12 @@ public class Reserva {
 
     private long id;
     private long id_usuario;
-    private long id_evento;
+    private long id_filme;
+
 
     public long getId() {
         return id;
     }
-
     public void setId(long id) {
         this.id = id;
     }
@@ -30,12 +30,11 @@ public class Reserva {
         this.id_usuario = id_usuario;
     }
 
-    public long getId_evento() {
-        return id_evento;
+    public long getId_filme() {
+        return id_filme;
     }
 
-    public void setId_evento(long id_evento) {
-        this.id_evento = id_evento;
+    public void setId_filme(long id_filme) {
+        this.id_filme = id_filme;
     }
-
 }
